@@ -1,0 +1,168 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+
+\pagestyle{fancy}
+\fancyhf{} 
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.2in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+% --- CV: 
+
+\begin{document}
+
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{}{\Large Leonardo Magdanello Araujo}} & E-mail: \href{mailto:lmagdanello40@gmail.com}{lmagdanello40@gmail.com}\\
+  \href{https://www.linkedin.com/in/magdanello/}{LinkedIn} -- \href{https://github.com/lmagdanello}{GitHub} & Celular: (+55) 11 9 7505-0030 \\
+\end{tabular*}
+
+\section{Sobre}
+
+{\vspace{2pt}}
+
+HPC System Admin desde 2019, responsável pela administração dos maiores ambientes de supercomputação da América Latina. Bacharel em Ciência da Computação pela Universidade Paulista. \\
+
+\section{Formação Acadêmica}
+
+{\vspace{2pt}}
+
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Universidade Paulista}{São Paulo, Brasil}
+      {Bacharel em Ciência da Computação}{Jun. 2016 -- Jun. 2020}
+      
+      {\vspace{5pt} Trabalho de Conclusão de Curso: Projeto de Segurança e Automação Residencial com Arduíno\\Ferramentas: Arduíno Uno, C++, Node.js e ReactNative}
+      
+      {\vspace{3pt}}
+      
+    \resumeSubheading
+      {ETEC - Escola Técnica Estadual de São Paulo}{São Paulo, Brasil}
+      {Ensino Técnico em Eletroeletrônica}{Jan. 2014 -- Dez. 2015}
+      
+      {\vspace{5pt} Projeto Final: desenvolvemos uma solução para automatização do processo de cobrança em pedágios\\Ferramentas: Arduíno Uno, C++, PROTEUS, Circuitos Impressos e conceitos de Mecatrônica}
+  \resumeSubHeadingListEnd
+
+\section{Experiência Profissional}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Atos}{São Paulo, Brasil}
+      {Analista de Suporte ao Usuário 2N}{Mar. 2019 -- Presente}
+      \resumeItemListStart
+      \resumeItem{HPC SysAdmin}
+      {High Performance Computing System Administrator;}
+      \resumeItem{GNU/Linux}
+      {Administração de Sistemas Linux-based;}
+      \resumeItem{Python}
+      {Desenvolvimento de software livre para gerência de arquitetura e sistemas de supercomputação;}
+      \resumeItem{Bash}
+      {Shell Scripting;}
+      \resumeItem{Outros}
+      {Ansible, Lustre filesystem, Slurm, Docker, Pacemaker, MySQL.}
+      \resumeItemListEnd
+    
+    {\vspace{2pt}}
+             
+    \resumeSubheading
+      {Atos}{São Paulo, Brasil}
+      {Estagiário em Big Data e Security}{Abr. 2018 -- Fev. 2019}
+
+	{\vspace{2pt}}
+
+    \resumeSubheading
+      {TSI Informática}{São Paulo, Brasil}
+      {Estagiário em Eletrônica}{Fev. 2016 -- Fev.2017}  
+
+  \resumeSubHeadingListEnd
+  
+\section{Cursos}
+\begin{itemize}
+	\item Complete Python Bootcamp: Go from zero to hero in Python3 --
+		\emph{Udemy}
+	\item Go: The Complete Bootcamp --
+			\emph{Udemy}
+	\item Google's Go Programming Language --
+		\emph{Udemy}
+	\item Python Bootcamp 2020 --
+		\emph{Udemy}
+\end{itemize}
+
+\section{Skills}
+
+    {\vspace{2pt}}
+    
+  \resumeSubHeadingListStart
+     \item{
+     	\textbf{Linguagens}{: Python, Go, Bash}
+      \hfill
+      	\textbf{Setor}{: HPC, GNU/Linux, Computação de Alto Desempenho}
+      \hfill
+    }
+  \resumeSubHeadingListEnd
+
+\section{Reconhecimentos e Prêmios}
+
+	{\vspace{2pt}}
+
+	\textbf{Atos Silver Award Accolade welbeing@work} -- \small\emph{Atos, Set. 2019}\\
+	\textbf{Atos Brasil Awards - Prêmio Entrepreneurial} -- \small\emph{Atos, Dez. 2019}
+
+\end{document}
